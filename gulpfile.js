@@ -22,4 +22,4 @@ function serveSass() {
       .pipe(browserSync.stream());
 };
 
-exports.serve = bs
+exports.serve = bs;
