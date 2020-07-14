@@ -6,3 +6,7 @@
   .button--primary {
     background-color: #E3B873;
     color: #fff; }
+  .button--outline {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #FFFFFF; }
