@@ -363,6 +363,7 @@ body {
   align-items: center; }
 
 .logo {
+  font-size: 1.075rem;
   color: #E3B873;
   text-transform: uppercase; }
 
@@ -407,7 +408,8 @@ body {
     font-size: 1.571rem;
     max-width: 500px; }
   .hero__button {
-    margin-right: 20px; }
+    margin-right: 20px;
+    padding: 20px 30px; }
   .hero__instagram {
     position: absolute;
     left: 0;
@@ -448,7 +450,8 @@ body {
     text-decoration: none;
     color: #E3B873;
     transform: rotate(90deg);
-    line-height: 0.8; }
+    line-height: 0.8;
+    font-size: 1.1rem; }
     .instagram__link::after {
       content: '';
       width: 50px;
@@ -473,6 +476,7 @@ body {
   .button:hover {
     cursor: pointer; }
   .button--primary {
+    padding: 20px 35px;
     background-color: #E3B873;
     color: #fff;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -480,6 +484,7 @@ body {
     .button--primary:hover {
       box-shadow: none; }
   .button--outline {
+    padding: 20px 35px;
     color: #fff;
     background-color: transparent;
     border: 1px solid #FFFFFF; }
