@@ -323,6 +323,32 @@ template {
   max-width: 1256px;
   margin: auto; }
 
+.button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 0.93rem; }
+  .button:hover {
+    cursor: pointer; }
+  .button--primary {
+    padding: 20px 35px;
+    background-color: #E3B873;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    transition: box-shadow 0.3s; }
+    .button--primary:hover {
+      box-shadow: none; }
+  .button--outline {
+    padding: 20px 35px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    transition: box-shadow 0.3s; }
+    .button--outline:hover {
+      box-shadow: none; }
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -382,6 +408,9 @@ body {
 .contacts__phone {
   margin-right: 45px; }
 
+.contacts__button {
+  padding: 14px 20px; }
+
 .hero {
   position: relative;
   display: flex;
@@ -408,8 +437,7 @@ body {
     font-size: 1.571rem;
     max-width: 500px; }
   .hero__button {
-    margin-right: 20px;
-    padding: 20px 30px; }
+    margin-right: 20px; }
   .hero__instagram {
     position: absolute;
     left: 0;
@@ -466,28 +494,6 @@ body {
   font-size: 2.857rem; }
   .title__primary {
     color: #E3B873; }
-
-.button {
-  padding: 13px 20px;
-  border: none;
-  border-radius: 2px;
-  text-transform: uppercase;
-  font-size: 0.93rem; }
-  .button:hover {
-    cursor: pointer; }
-  .button--primary {
-    padding: 20px 35px;
-    background-color: #E3B873;
-    color: #fff;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    transition: box-shadow 0.3s; }
-    .button--primary:hover {
-      box-shadow: none; }
-  .button--outline {
-    padding: 20px 35px;
-    color: #fff;
-    background-color: transparent;
-    border: 1px solid #FFFFFF; }
 
 @media screen and (max-width: 1200px) {
   html {
