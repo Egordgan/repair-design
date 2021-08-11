@@ -9,10 +9,30 @@ body
   font-size: 1rem
 .section
   margin-bottom: 160px
+  &--dark
+    background-color: $dark
+    color: $light
   &-title
     text-align: center
-    text-transform: uppercase
-    font-family: 'Yeseva One', cursive
+    &--light
+      color: $light
+    &--left
+      text-align: left
+    &__heading
+      text-transform: uppercase
+      font-family: 'Yeseva One', cursive
+      line-height: 138.6%
+      &--primary
+        color: $primary
+    &__word
+      display: flex
+      align-items: center
+      &::after
+        content: ''
+        width: 90px
+        height: 1px
+        background-color: $primary
+        margin-left: 2rem
     &__image
       display: flex
       justify-content: center
@@ -23,5 +43,6 @@ body
         height: 2px
         background-color: $primary
         margin: 0 10px
+        border-radius: 30px
 
         
